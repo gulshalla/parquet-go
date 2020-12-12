@@ -1,11 +1,11 @@
 <h1 align="center">parquet-go</h1>
 <p align="center">
-        <a href="https://github.com/fraugster/parquet-go/releases"><img src="https://img.shields.io/github/v/tag/fraugster/parquet-go.svg?color=brightgreen&label=version&sort=semver"></a>
-        <a href="https://circleci.com/gh/fraugster/parquet-go/tree/master"><img src="https://circleci.com/gh/fraugster/parquet-go/tree/master.svg?style=shield"></a>
-        <a href="https://goreportcard.com/report/github.com/fraugster/parquet-go"><img src="https://goreportcard.com/badge/github.com/fraugster/parquet-go"></a>
-        <a href="https://codecov.io/gh/fraugster/parquet-go"><img src="https://codecov.io/gh/fraugster/parquet-go/branch/master/graph/badge.svg"/></a>
-        <a href="https://godoc.org/github.com/fraugster/parquet-go"><img src="https://img.shields.io/badge/godoc-reference-blue.svg?color=blue"></a>
-        <a href="https://github.com/fraugster/parquet-go/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-blue"></a>
+        <a href="https://github.com/gulshalla/parquet-go/releases"><img src="https://img.shields.io/github/v/tag/gulshalla/parquet-go.svg?color=brightgreen&label=version&sort=semver"></a>
+        <a href="https://circleci.com/gh/gulshalla/parquet-go/tree/master"><img src="https://circleci.com/gh/gulshalla/parquet-go/tree/master.svg?style=shield"></a>
+        <a href="https://goreportcard.com/report/github.com/gulshalla/parquet-go"><img src="https://goreportcard.com/badge/github.com/gulshalla/parquet-go"></a>
+        <a href="https://codecov.io/gh/gulshalla/parquet-go"><img src="https://codecov.io/gh/gulshalla/parquet-go/branch/master/graph/badge.svg"/></a>
+        <a href="https://godoc.org/github.com/gulshalla/parquet-go"><img src="https://img.shields.io/badge/godoc-reference-blue.svg?color=blue"></a>
+        <a href="https://github.com/gulshalla/parquet-go/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-blue"></a>
 </p>
 
 ---
@@ -106,7 +106,7 @@ the right data type to use elsewhere to specify parquet schemas. The syntax
 has been mostly reverse-engineered from a similar format also supported but
 barely documented in [Parquet's Java implementation](https://github.com/apache/parquet-mr/blob/master/parquet-column/src/main/java/org/apache/parquet/schema/MessageTypeParser.java).
 
-For the full syntax, please have a look at the [parquetschema package Go documentation](http://godoc.org/github.com/fraugster/parquet-go/parquetschema).
+For the full syntax, please have a look at the [parquetschema package Go documentation](http://godoc.org/github.com/gulshalla/parquet-go/parquetschema).
 
 Generally, the schema definition describes the structure of a message. Parquet
 will then flatten this into a purely column-based structure when writing the
@@ -200,7 +200,7 @@ structure in which each key is associated with one value.
 as well as print the content of a parquet file. You can also use it to split an existing
 parquet file into multiple smaller files.
 
-Install it by running `go get github.com/fraugster/parquet-go/cmd/parquet-tool` on your command line.
+Install it by running `go get github.com/gulshalla/parquet-go/cmd/parquet-tool` on your command line.
 For more detailed help on how to use the tool, consult `parquet-tool --help`.
 
 ### csv2parquet
@@ -209,7 +209,7 @@ For more detailed help on how to use the tool, consult `parquet-tool --help`.
 all columns are simply turned into strings, but you provide it with type hints to influence
 the generated parquet schema.
 
-You can install this tool by running `go get github.com/fraugster/parquet-go/cmd/csv2parquet` on your command line.
+You can install this tool by running `go get github.com/gulshalla/parquet-go/cmd/csv2parquet` on your command line.
 For more help, consult `csv2parquet --help`.
 
 ## Contributing
@@ -232,12 +232,12 @@ See also the list of [contributors][contributors] who participated in this proje
 
 ## License
 
-Copyright 2020 Fraugster GmbH
+Copyright 2020 gulshalla GmbH
 
 This project is licensed under the Apache-2 License - see the [LICENSE](LICENSE) file for details.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 
-[tags]: https://github.com/fraugster/parquet-go/tags
-[contributors]: https://github.com/fraugster/parquet-go/graphs/contributors
+[tags]: https://github.com/gulshalla/parquet-go/tags
+[contributors]: https://github.com/gulshalla/parquet-go/graphs/contributors
 

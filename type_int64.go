@@ -5,7 +5,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/fraugster/parquet-go/parquet"
+	"github.com/gulshalla/parquet-go/parquet"
 	"github.com/pkg/errors"
 )
 

@@ -3,7 +3,7 @@ package goparquet
 import (
 	"io"
 
-	"github.com/fraugster/parquet-go/parquet"
+	"github.com/gulshalla/parquet-go/parquet"
 	"github.com/pkg/errors"
 )
 

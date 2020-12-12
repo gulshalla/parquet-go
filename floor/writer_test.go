@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	goparquet "github.com/fraugster/parquet-go"
-	"github.com/fraugster/parquet-go/floor/interfaces"
-	"github.com/fraugster/parquet-go/parquet"
-	"github.com/fraugster/parquet-go/parquetschema"
+	goparquet "github.com/gulshalla/parquet-go"
+	"github.com/gulshalla/parquet-go/floor/interfaces"
+	"github.com/gulshalla/parquet-go/parquet"
+	"github.com/gulshalla/parquet-go/parquetschema"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

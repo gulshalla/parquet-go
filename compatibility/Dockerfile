@@ -14,11 +14,11 @@ RUN mvn --batch-mode clean package -Plocal
 
 FROM golang:1.13-alpine AS buildgo
 
-ADD . /go/src/github.com/fraugster/parquet-go
-RUN go build -o /buildfile /go/src/github.com/fraugster/parquet-go/compatibility/build.go \
-                           /go/src/github.com/fraugster/parquet-go/compatibility/data_model.go
-RUN go build -o /compare /go/src/github.com/fraugster/parquet-go/compatibility/compare.go \
-                         /go/src/github.com/fraugster/parquet-go/compatibility/data_model.go
+ADD . /go/src/github.com/gulshalla/parquet-go
+RUN go build -o /buildfile /go/src/github.com/gulshalla/parquet-go/compatibility/build.go \
+                           /go/src/github.com/gulshalla/parquet-go/compatibility/data_model.go
+RUN go build -o /compare /go/src/github.com/gulshalla/parquet-go/compatibility/compare.go \
+                         /go/src/github.com/gulshalla/parquet-go/compatibility/data_model.go
 
 
 FROM openjdk:8-jdk-alpine

@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/fraugster/parquet-go/parquet"
+	"github.com/gulshalla/parquet-go/parquet"
 )
 
 type floatPlainDecoder struct {

@@ -14,9 +14,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	goparquet "github.com/fraugster/parquet-go"
-	"github.com/fraugster/parquet-go/parquet"
-	"github.com/fraugster/parquet-go/parquetschema"
+	goparquet "github.com/gulshalla/parquet-go"
+	"github.com/gulshalla/parquet-go/parquet"
+	"github.com/gulshalla/parquet-go/parquetschema"
 )
 
 var printLog = func(string, ...interface{}) {}

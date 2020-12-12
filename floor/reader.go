@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"time"
 
-	goparquet "github.com/fraugster/parquet-go"
-	"github.com/fraugster/parquet-go/floor/interfaces"
-	"github.com/fraugster/parquet-go/parquet"
-	"github.com/fraugster/parquet-go/parquetschema"
+	goparquet "github.com/gulshalla/parquet-go"
+	"github.com/gulshalla/parquet-go/floor/interfaces"
+	"github.com/gulshalla/parquet-go/parquet"
+	"github.com/gulshalla/parquet-go/parquetschema"
 )
 
 // NewReader returns a new high-level parquet file reader.

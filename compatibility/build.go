@@ -7,10 +7,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/fraugster/parquet-go/parquetschema"
+	"github.com/gulshalla/parquet-go/parquetschema"
 
-	goparquet "github.com/fraugster/parquet-go"
-	"github.com/fraugster/parquet-go/parquet"
+	goparquet "github.com/gulshalla/parquet-go"
+	"github.com/gulshalla/parquet-go/parquet"
 )
 
 func main() {

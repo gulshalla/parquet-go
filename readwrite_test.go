@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fraugster/parquet-go/parquet"
-	"github.com/fraugster/parquet-go/parquetschema"
+	"github.com/gulshalla/parquet-go/parquet"
+	"github.com/gulshalla/parquet-go/parquetschema"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
